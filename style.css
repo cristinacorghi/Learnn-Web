@@ -289,6 +289,21 @@ a:hover {
     height: 100px;
 }
 
+.back-to-top {
+    background-image: url('img/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-color: #8279BB;
+    background-position: center center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
 /*
 
 1 - in css, le regole che stanno sotto vanno a sovrascrivere quelle che stanno sopra.
